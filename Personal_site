@@ -1,0 +1,171 @@
+#This is my personal website with some projects I have completed
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: 'Arial';
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #097969;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* code for the nav bar is commented out - I do not want it */
+
+/* Style the top navigation bar */
+/*.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+/*.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+/*.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+/*.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+  
+ /* have no text entered for the nav bar on purpose */
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Katherine R. Fear</h1>
+  <p>My GIS projects</p>
+</div>
+<div class="navbar">
+  <a href="#"></a>
+  
+
+  <a href="#"></a>
+  <a href="#"></a>
+  <a href="#" class="right"></a>
+</div>
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+   
+    
+    <img src="Headshot_green.jpg" style="height:200px;" alt="Headshot" />
+
+    <div class="" style="height:200px;"></div>
+    <p>My name is Katie, and I am a Junior at UNC Chapel Hill, majoring in Environmental Studies and Global Studies, with a minor in Data Science.
+    </p>
+    <br>
+    <p> My current interests include exploring the intersection between sustainable agriculture and GIS, as well as learning about land management, cover cropping, and other practices to maintain and improve soil health. My other interests include how identity and food are related, textile produciton, and water management. </p>
+    
+
+   
+    
+    
+  </div>
+  <div class="main">
+    <h2>My GIS Projects </h2>
+   <br>
+
+ 
+    <h5>Date: November 13th 2024 </h5>
+    <img src="kfear_assessment.jpg" style="height:600px;" alt="Riparian Vegetation Burn Area" />
+    <p>Description:</p>
+    <p>In this project I used the buffer and intersect tools to highlight the vegetation within 200m of a creek that was impacted by burning </p>
+    <br>
+
+
+    <h5>Date: November 6th 2024 </h5>
+  
+    <img src="lab6.jpg" style="height:600px;" alt="Benzene and Population" />
+    <p>Description</p>
+    <p> In this project I created a map representing the Benzene levels in the air compared to the population of each county in North Carolina</p>
+    <br>
+  
+
+    <h5>Date: October 2nd 2024 </h5>
+    <img src="lab_3.jpg" style="height:600px;" alt="Portland Schools" />
+    
+    <p>In this project I practiced using symbols and legends, to represent schools within a region of Portland, Oregon</p>
+    <br>
+    </div>
+</div>
+
