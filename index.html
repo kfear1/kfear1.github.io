@@ -21,7 +21,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #05671f;
+  background: #008148;
   color: white;
 }
 
@@ -35,19 +35,33 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #034732;
+  height: 70px;
+ 
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
-  display: block;
-  color: white;
+  /* float: left; */
+  display: inline-block;
+  color: black;
   text-align: center;
-  padding: 14px 20px;
+  /* padding: 20px 15px; */
   text-decoration: none;
 }
-
+.button{
+    background-color: #C6C013;
+    color: black;
+    border-color: #C6C013;
+    height: 70px;
+    padding: 0 15px;
+    /* width: 80px; */
+    border-radius: 3px;
+    line-height: 70px; /* same as height */
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+  }
 /* Right-aligned link */
 .navbar a.right {
   float: right;
@@ -106,6 +120,7 @@ body {
   }
   
  /* have no text entered for the nav bar on purpose */
+ 
 }
 </style>
 </head>
@@ -113,7 +128,7 @@ body {
 
 <div class="header">
   <h1>Katherine R. Fear</h1>
-  <p>My GIS projects:</p>
+  <!-- <p>My GIS projects:</p> -->
 </div>
 <!-- <div class="navbar">
   <a href="#"></a>
@@ -127,30 +142,34 @@ body {
 <div class="navbar">
   <!-- <a href="#home">Home</a> -->
   <!-- <a href="#news">News</a> -->
-  <a href="Code.html">Code</a> <!-- New link added here -->
-  <a href="About_me.html">Code</a> <!-- New link added here -->
-   <a href="Map_projects.html">Code</a> <!-- New link added here -->
-  <!-- <a href="#contact" class="right">Contact</a> -->
+  <!-- <a href="Code.html">Code</a> -->
+  <a href="index.html" class="button">Home </a> 
+  <a href="About_me.html" class="button">About Me</a> 
+  <a href="Map_projects.html" class="button">Map Projects</a> 
+  <a href="#contact" class="button">Contact</a> 
+
+  <!-- <button Class="button">
+    Code
+    <a href="Code.html"></a>
+    
+  </button>
+
+  <button Class="button">
+    About Me
+    <a href="About_me.html"></a>
+  </button>
+
+  <button Class="button">
+    Map Projects
+    <a href="Map_projects.html"></a>
+  </button> -->
+
+
+
 </div>
 
 <div class="row">
-  <div class="side">
-    <h2>About Me</h2>
-   
-    
-    <img src="Headshot_green.jpg" style="height:200px;" alt="Headshot" />
-
-    <div class="" style="height:200px;"></div>
-    <p>My name is Katie, and I am a Senior at UNC Chapel Hill, majoring in Environmental Studies and Global Studies, with a minor in Data Science.
-    </p>
-    <br>
-    <p>I am currently looking to work in geospatial engineering, focusing on developing tools to support environmental management. My current interests include exploring the intersection between sustainable agriculture and GIS, as well as learning about land management, cover cropping, and other practices to maintain and improve soil health. Other interests include how identity and food are related, textile production, and water management. </p>
-    
-
-   
-    
-    
-  </div>
+  
   <div class="main">
     <h2>My GIS Projects </h2>
    <br>
