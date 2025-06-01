@@ -28,6 +28,7 @@ body {
   overflow: hidden;
   background-color: #034732;
   height: 70px;
+  
  
 }
 
@@ -38,6 +39,7 @@ body {
   text-align: center;
   text-decoration: none;
   
+  
 }
 /* Styles the buttons within the navbar */
 .button{
@@ -47,6 +49,11 @@ body {
     padding: 0 15px;
     border-radius: 3px;
     line-height: 70px; 
+   
+  }
+
+  .navbar a:first-child.button{
+    margin-left: 7px;
   }
 
 /* Change color on hover */
@@ -65,22 +72,52 @@ body {
 }
 /* Style for text box buttons */
 .red_box{
-  display:  inline-flex;
+  vertical-align: top;
   background-color:#EF2917;
   border-color: #EF2917;
   border-style: solid;
-  /* border-width: 2px; */
-  color: white;
   border-radius: 3px;
   width: 250px;
   height: 200px;
   font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+}
+
+.red_box a{
+  display:  inline-flex;
+  border-color: #EF2917;
+  color: white;
   text-decoration: none;
+}
+
+.orange_box {
+  vertical-align: top;
+  background-color:#EF8a17;
+  border-color: #EF8a17;
+  border-style: solid;
+  border-radius: 3px;
+  width: 250px;
+  height: 200px;
+  font-size: 30px;
   align-items: center;
   justify-content: center;
 
 }
 
+.orange_box a{
+  display:  inline-flex;
+  border-color: #EF8a17;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+/* .mainpage{
+  display: block;
+  background-color: white;
+  align-items: center;
+} */
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
