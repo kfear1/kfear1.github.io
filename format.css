@@ -63,24 +63,24 @@ body {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
 }
-
+/* Style for text box buttons */
 .red_box{
-  /* display: -ms-flexbox; IE10 */
-  display: inline-flex;
-  border: #EF2917;
-  /* background-color:#EF2917; */
-  border-radius: 3px;
-}
-
-/* style for boxes inside the box */
-.red_box > div{
-  background-color: #EF2917;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+  display:  inline-flex;
+  background-color:#EF2917;
+  border-color: #EF2917;
+  border-style: solid;
+  /* border-width: 2px; */
   color: white;
   border-radius: 3px;
+  width: 250px;
+  height: 200px;
+  font-size: 30px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+
 }
+
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
