@@ -72,6 +72,7 @@ body {
 }
 /* Style for text box buttons */
 .red_box{
+  display: inline-block;
   vertical-align: top;
   background-color:#EF2917;
   border-color: #EF2917;
@@ -84,6 +85,7 @@ body {
   justify-content: center;
   margin-left: 7px;
   margin-top: 5px
+  
 }
 
 .red_box a{
@@ -94,6 +96,7 @@ body {
 }
 
 .orange_box {
+  display: inline-block;
   vertical-align: top;
   background-color:#EF8a17;
   border-color: #EF8a17;
@@ -117,6 +120,7 @@ body {
 }
 
 .lightgreen_box {
+  display: inline-block;
   vertical-align: top;
   background-color:#C6C013;
   border-color: #C6C013;
@@ -140,6 +144,7 @@ body {
 }
 
 .darkgreen_box {
+  display: inline-block;
   vertical-align: top;
   background-color:#034732;
   border-color: #034732;
@@ -163,6 +168,7 @@ body {
 }
 
 .mossgreen_box {
+  display: inline-block;
   vertical-align: top;
   background-color:#008148;
   border-color: #008148;
