@@ -21,7 +21,7 @@ body {
   font-size: 40px;
 }
 
-/* code for the nav bar is commented out - I do not want it */
+/* Colours for this page: #C6C013, #034732 #EF8a17 EF2917 */
 
 /* Style the top navigation bar */
 .navbar {
@@ -76,13 +76,14 @@ body {
   background-color:#EF2917;
   border-color: #EF2917;
   border-style: solid;
-  border-radius: 3px;
+  border-radius: 5px;
   width: 250px;
   height: 200px;
   font-size: 30px;
   align-items: center;
   justify-content: center;
   margin-left: 7px;
+  margin-top: 5px
 }
 
 .red_box a{
@@ -97,12 +98,13 @@ body {
   background-color:#EF8a17;
   border-color: #EF8a17;
   border-style: solid;
-  border-radius: 3px;
+  border-radius: 5px;
   width: 250px;
   height: 200px;
   font-size: 30px;
   align-items: center;
   justify-content: center;
+  margin-top: 5px
 
 }
 
@@ -113,10 +115,96 @@ body {
   border-radius: 3px;
   text-decoration: none;
 }
-/* .mainpage{
+
+.lightgreen_box {
+  vertical-align: top;
+  background-color:#C6C013;
+  border-color: #C6C013;
+  border-style: solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px
+
+}
+
+.lightgreen_box a{
+  display:  inline-flex;
+  border-color: #C6C013;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.mainpage{
   display: block;
   background-color: white;
   align-items: center;
+  font-family: 'Roboto';
+}
+
+.darkgreen_box {
+  vertical-align: top;
+  background-color:#034732;
+  border-color: #034732;
+  border-style: solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px
+
+}
+
+.darkgreen_box a{
+  display:  inline-flex;
+  border-color: #034732;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.mossgreen_box {
+  vertical-align: top;
+  background-color:#008148;
+  border-color: #008148;
+  border-style: solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px
+
+}
+
+.mossgreen_box a{
+  display:  inline-flex;
+  border-color: #008148;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.mainpage{
+  display: block;
+  background-color: white;
+  align-items: center;
+  font-family: 'Roboto';
+}
+/* .roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 } */
 
 /* Create two unequal columns that sits next to each other */
