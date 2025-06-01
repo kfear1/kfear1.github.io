@@ -139,13 +139,6 @@ body {
   text-decoration: none;
 }
 
-.mainpage{
-  display: block;
-  background-color: white;
-  align-items: center;
-  font-family: 'Roboto';
-}
-
 .darkgreen_box {
   vertical-align: top;
   background-color:#034732;
@@ -191,6 +184,7 @@ body {
   border-radius: 3px;
   text-decoration: none;
 }
+
 
 .mainpage{
   display: block;
