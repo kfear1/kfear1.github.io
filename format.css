@@ -29,7 +29,6 @@ body {
   background-color: #034732;
   height: 70px;
   
- 
 }
 
 /* Style the navigation bar links */
@@ -83,7 +82,7 @@ body {
   font-size: 30px;
   align-items: center;
   justify-content: center;
-  margin-left: 7px;
+  /* margin-left: 7px; */
   margin-top: 5px
   
 }
@@ -108,7 +107,7 @@ body {
   font-size: 30px;
   align-items: center;
   justify-content: center;
-  margin-left: 7px;
+  margin-left: 5px;
   margin-top: 5px;
   padding: 0px,5px;
 }
@@ -157,7 +156,7 @@ body {
   font-size: 30px;
   align-items: center;
   justify-content: center;
-  margin-left: 7px;
+  /* margin-left: 7px; */
   margin-top: 5px;
   padding: 0px,5px;
 }
@@ -247,7 +246,17 @@ body {
   background-color: white;
   align-items: center;
   font-family: 'Roboto';
+  
 }
+
+.mainpage_content{
+  display: block;
+  background-color: white;
+  align-items: center;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+  
 /* .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
