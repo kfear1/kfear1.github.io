@@ -95,6 +95,31 @@ body {
   text-decoration: none;
 }
 
+/* Style for text box buttons */
+.red_box_home{
+  display: inline-block;
+  vertical-align: top;
+  background-color:#EF2917;
+  border-color: #EF2917;
+  border-style: solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 110px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+  margin-top: 5px;
+  padding: 0px,5px;
+}
+
+.red_box_home a{
+  display:  inline-flex;
+  border-color: #EF2917;
+  color: white;
+  text-decoration: none;
+}
+
 .orange_box {
   display: inline-block;
   vertical-align: top;
