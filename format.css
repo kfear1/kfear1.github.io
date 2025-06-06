@@ -95,7 +95,7 @@ body {
   text-decoration: none;
 }
 
-/* Style for text box buttons */
+/* Style for homepage box buttons */
 .red_box_home{
   display: inline-block;
   vertical-align: top;
@@ -141,6 +141,31 @@ body {
   border-color: #EF8a17;
   color: white;
   border-radius: 3px;
+  text-decoration: none;
+}
+
+/* Style for homepage box buttons */
+.orange_box_home{
+  display: inline-block;
+  vertical-align: top;
+  background-color:#EF8a17;
+  border-color: #EF8a17;
+  border-style: solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 110px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+  margin-top: 5px;
+  padding: 0px,5px;
+}
+
+.orange_box_home a{
+  display:  inline-flex;
+  border-color: #EF8a17;
+  color: white;
   text-decoration: none;
 }
 
