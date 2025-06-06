@@ -62,13 +62,8 @@ body {
   color: white;
 }
 
-/* Column container */
-.row {  
-  display: -ms-flexbox; /*IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
+
+
 /* Style for text box buttons */
 .red_box{
   display: inline-block;
@@ -94,6 +89,14 @@ body {
   text-decoration: none;
 }
 
+.red_box:hover {
+  background-color: #008148;
+  /* background-color: #EF2917; */
+  color: white;
+}
+
+
+
 /* Style for homepage box buttons */
 .red_box_home{
   display: inline-block;
@@ -110,6 +113,12 @@ body {
   margin-left: 5px;
   margin-top: 5px;
   padding: 0px,5px;
+}
+
+.red_box_home:hover {
+  background-color: #008148;
+  /* background-color: #EF2917; */
+  color: white;
 }
 
 .red_box_home a{
@@ -168,6 +177,18 @@ body {
   text-decoration: none;
 }
 
+.orange_box:hover {
+  background-color: #008148;
+  /* background-color: #EF2917; */
+  color: white;
+}
+
+.orange_box_home:hover {
+  background-color: #008148;
+  /* background-color: #EF2917; */
+  color: white;
+}
+
 .lightgreen_box {
   display: inline-block;
   vertical-align: top;
@@ -192,6 +213,12 @@ body {
   text-decoration: none;
 }
 
+.lightgreen_box:hover {
+  background-color: #008148;
+  /* background-color: #EF2917; */
+  color: white;
+}
+
 .darkgreen_box {
   display: inline-block;
   vertical-align: top;
@@ -214,6 +241,12 @@ body {
   color: white;
   border-radius: 3px;
   text-decoration: none;
+}
+
+.darkgreen_box:hover {
+  background-color: #008148;
+  /* background-color: #EF2917; */
+  color: white;
 }
 
 .mossgreen_box {
