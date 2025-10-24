@@ -1,3 +1,15 @@
+/* establishing colour variables */
+:root{
+  --colour_a_light: #A7CECB;
+  --colour_a_dark: #8BA6A9;
+  --colour_b_light: #C6C013;
+  --colour_b_dark: #CACC90;
+  --hover-color: #75704E;
+  --darkest: #37392E;
+  --palest: #f4ebbe;
+  --text-light: white;
+  --text-dark: black;
+}
 * {
   box-sizing: border-box;
 }
@@ -12,13 +24,19 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #008148;
-  color: white;
+  background: var(--colour_a_light);
+  color:  var(--text-light);
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 40px;
+  font-size: 60px;
+  font-family:'Arial'
+}
+/* Increase the font size of the heading */
+.header h2 {
+  font-size: 30px;
+  font-family:'Arial'
 }
 
 /* Colours for this page: #C6C013, #034732 #EF8a17 EF2917 */
@@ -26,7 +44,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #034732;
+  background-color: var(--colour_a_dark);
   height: 70px;
   
 }
@@ -34,7 +52,7 @@ body {
 /* Style the navigation bar links */
 .navbar a {
   display: inline-block;
-  color: black;
+  color:  var(--text-light);
   text-align: center;
   text-decoration: none;
   
@@ -42,13 +60,13 @@ body {
 }
 /* Styles the buttons within the navbar */
 .button{
-    background-color: #C6C013;
-    border-color: #C6C013;
+    /* color: white;  */
+    background-color: var(--darkest);
+    border-color:var(--darkest);
     height: 70px;
     padding: 0 15px;
     border-radius: 3px;
-    line-height: 70px; 
-   
+    line-height: 70px;
   }
 
   .navbar a:first-child.button{
@@ -57,9 +75,10 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #EF8a17;
+  background-color: var(--colour_b_dark);
   /* background-color: #EF2917; */
-  color: white;
+  color: var(--text-light);
+
 }
 
 
@@ -68,8 +87,8 @@ body {
 .red_box{
   display: inline-block;
   vertical-align: top;
-  background-color:#EF2917;
-  border-color: #EF2917;
+  background-color:var(--palest);
+  border-color: var(--palest);
   border-style: solid;
   border-radius: 5px;
   width: 250px;
@@ -84,16 +103,17 @@ body {
 
 .red_box a{
   display:  inline-flex;
-  border-color: #EF2917;
-  color: white;
+  border-color: var(--palest);
+  color: var(--text-dark);
   text-decoration: none;
 }
 
-.red_box:hover {
-  background-color: #008148;
+/* .red_box:hover {
+  background-color: var(--hover-color);
   /* background-color: #EF2917; */
-  color: white;
-}
+  /* color: var(--text-light); */
+/* }  */
+
 
 
 
@@ -101,8 +121,8 @@ body {
 .red_box_home{
   display: inline-block;
   vertical-align: top;
-  background-color:#EF2917;
-  border-color: #EF2917;
+  background-color:var(--colour_a_dark);
+  border-color: var(--colour_a_dark);
   border-style: solid;
   border-radius: 5px;
   width: 250px;
@@ -115,24 +135,24 @@ body {
   padding: 0px,5px;
 }
 
-.red_box_home:hover {
-  background-color: #008148;
+/* .red_box_home:hover {
+  background-color: var(--hover-color);
   /* background-color: #EF2917; */
-  color: white;
-}
-
+  /* color: var(--text-light); */
+/* }  */
+/* want to make the hovers all in one style */
 .red_box_home a{
   display:  inline-flex;
-  border-color: #EF2917;
-  color: white;
+  border-color: var(--colour_a_dark);
+  color: var(--text-light);
   text-decoration: none;
 }
 
 .orange_box {
   display: inline-block;
   vertical-align: top;
-  background-color:#EF8a17;
-  border-color: #EF8a17;
+  background-color:var(--colour_b_dark);
+  border-color: var(--colour_b_dark);
   border-style: solid;
   border-radius: 5px;
   width: 250px;
@@ -146,8 +166,8 @@ body {
 
 .orange_box a{
   display:  inline-flex;
-  border-color: #EF8a17;
-  color: white;
+  border-color: var(--colour_b_light);
+  color: var(--text-dark);
   border-radius: 3px;
   text-decoration: none;
 }
@@ -156,8 +176,8 @@ body {
 .orange_box_home{
   display: inline-block;
   vertical-align: top;
-  background-color:#EF8a17;
-  border-color: #EF8a17;
+  background-color:var(--colour_b_dark);
+  border-color: var(--colour_b_dark);
   border-style: solid;
   border-radius: 5px;
   width: 250px;
@@ -172,28 +192,33 @@ body {
 
 .orange_box_home a{
   display:  inline-flex;
-  border-color: #EF8a17;
-  color: white;
+  border-color: var(--colour_b_dark);
+  color: var(--text-light);
   text-decoration: none;
 }
 
-.orange_box:hover {
-  background-color: #008148;
+/* .orange_box:hover {
+  background-color: var(--hover-color);
   /* background-color: #EF2917; */
-  color: white;
-}
+  /* color: var(--text-light); */
+/* } */ 
 
-.orange_box_home:hover {
-  background-color: #008148;
+/* .orange_box_home:hover {
+  background-color: var(--hover-color);
   /* background-color: #EF2917; */
-  color: white;
-}
+  /* color: var(--text-light); */
+/* }
+.orange_box_home a:hover {
+  background-color: var(--hover-color);
+  /* background-color: #EF2917; */
+  /* color: var(--text-light); */
+/* } */
 
 .lightgreen_box {
   display: inline-block;
   vertical-align: top;
-  background-color:#C6C013;
-  border-color: #C6C013;
+  background-color:var(--colour_a_light);
+  border-color: var(--colour_a_light);
   border-style: solid;
   border-radius: 5px;
   width: 250px;
@@ -207,23 +232,23 @@ body {
 
 .lightgreen_box a{
   display:  inline-flex;
-  border-color: #C6C013;
-  color: white;
+  border-color: var(--colour_b_dark);
+  color: var(--text-light);
   border-radius: 3px;
   text-decoration: none;
 }
 
-.lightgreen_box:hover {
-  background-color: #008148;
-  /* background-color: #EF2917; */
-  color: white;
-}
+/* .lightgreen_box:hover {
+  background-color: var(--hover-color);
+  background-color: #EF2917;
+  color: var(--text-light);
+} */
 
 .darkgreen_box {
   display: inline-block;
   vertical-align: top;
-  background-color:#034732;
-  border-color: #034732;
+  background-color:var(--colour_a_dark);
+  border-color: var(--colour_a_dark);
   border-style: solid;
   border-radius: 5px;
   width: 250px;
@@ -237,23 +262,23 @@ body {
 
 .darkgreen_box a{
   display:  inline-flex;
-  border-color: #034732;
-  color: white;
+  border-color: var(--hover-color);
+  color: var(--text-light);
   border-radius: 3px;
   text-decoration: none;
 }
 
-.darkgreen_box:hover {
-  background-color: #008148;
+/* .darkgreen_box:hover {
+  background-color: var(--hover-color);
   /* background-color: #EF2917; */
-  color: white;
-}
+  /* color: var(--text-light); */
+/* }  */
 
 .mossgreen_box {
   display: inline-block;
   vertical-align: top;
-  background-color:#008148;
-  border-color: #008148;
+  background-color:var(--palest);
+  border-color: var(--palest);
   border-style: solid;
   border-radius: 5px;
   width: 250px;
@@ -267,29 +292,79 @@ body {
 
 .mossgreen_box a{
   display:  inline-flex;
-  border-color: #008148;
-  color: white;
+  border-color: var(--palest);
+  color: var(--text-light);
   border-radius: 3px;
   text-decoration: none;
 }
 
+/* .red_box:hover a,
+.red_box_home:hover,
+.orange_box:hover a,
+.orange_box:hover,
+.orange_box_home:hover a,
+.mossgreen_box:hover a,
+.lightgreen_box:hover a,
+.darkgreen_box:hover a {
+  background-color: var(--hover-color);
+  color: var(--text-light);
+} */
+.red_box a,
+.orange_box a,
+.mossgreen_box a,
+.lightgreen_box a,
+.darkgreen_box a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--text-dark);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.red_box a:hover,
+.red_box_home:hover,
+.orange_box a:hover,
+.orange_box_home:hover,
+.mossgreen_box a:hover,
+.lightgreen_box a:hover,
+.darkgreen_box a:hover {
+  background-color: var(--hover-color);
+  color: var(--text-light);
+}
+
+
 
 .mainpage{
   display: block;
-  background-color: white;
+  /* background-color: #f4ebbe;  */ /* would like a lighter colour but need to fix how the divs show too*/
   align-items: center;
-  font-family: 'Roboto';
-  
+  font-family: 'Arial';
+  font-size: 20px
 }
 
 .mainpage_content{
   display: block;
-  background-color: white;
+  background-color: var(--text-light);
   align-items: center;
-  font-family: 'Roboto';
+  font-family: 'Arial';
   margin-left: 5px;
+  font-size: 20px
 }
   
+/* /* p{text-align: center;} */
+div{text-align: center;} 
+
+p {
+  /* margin-top: 150px; */
+  /* margin-bottom: 100px; */
+  margin-right: 150px;
+  margin-left: 150px;
+  text-align: center;
+  font-size: 20px
+}
 /* .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
