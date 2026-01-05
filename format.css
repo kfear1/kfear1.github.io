@@ -1,7 +1,8 @@
 /* establishing colour variables */
 :root{
   --colour_a_light: #A7CECB;
-  --colour_a_dark: #8BA6A9;
+  --colour_a_dark:  #8BA6A9;
+  /* --colour_a_dark: #806968; */
   --colour_b_light: #C6C013;
   --colour_b_dark: #CACC90;
   --hover-color: #75704E;
