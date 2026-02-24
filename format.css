@@ -416,3 +416,8 @@ p {
 
 /* have no text entered for the nav bar on purpose */
 
+.mainpage_content iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
