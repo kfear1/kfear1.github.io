@@ -351,7 +351,7 @@ body {
   background-color: var(--text-light);
   margin: 0 auto;
   padding: 20px;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
   font-family: 'Arial';
   font-size: 20px;
@@ -418,11 +418,7 @@ p {
 
 /* have no text entered for the nav bar on purpose */
 
-.mainpage_content iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 @media (max-width: 600px) {
 
@@ -440,21 +436,21 @@ p {
 
 }
 
-/* Make all images responsive */
-.mainpage_content img {
-  width: 100%;
-  max-width: 900px;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-}
-
-/* Make iframe responsive */
 .mainpage_content iframe {
   width: 100%;
-  max-width: 1200px;
-  height: 70vh;
+  max-width: 1400px;
+  height: 80vh;
   display: block;
   margin: 20px auto;
   border: none;
+}
+
+/* Make all images responsive */
+
+.mainpage_content img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
