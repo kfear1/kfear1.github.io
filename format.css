@@ -447,9 +447,15 @@ p {
 
 /* Make all images responsive */
 
-.mainpage_content img {
+/* .mainpage_content img {
   width: 100%;
   max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 20px auto; */
+/* } */
+.mainpage_content img {
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 20px auto;
